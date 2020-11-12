@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PRM391x_ShopMovies_thanhchfx01399</string>
+    <string name="title_movie">Movie</string>
+    <string name="title_profile">Profile</string>
+    <string name="facebook_app_id">488458351783192</string>
+    <string name="fb_login_protocol_scheme">fb488458351783192</string>
+    <string name="logout">Log out</string>
+    <string name="user_name">User name</string>
+    <string name="email">Email</string>
+</resources>

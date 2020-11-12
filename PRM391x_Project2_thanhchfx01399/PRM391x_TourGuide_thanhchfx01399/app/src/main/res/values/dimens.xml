@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="dimen_icon">100dp</dimen>
+    <dimen name="text_size">15sp</dimen>
+    <dimen name="width_flag">201dp</dimen>
+    <dimen name="height_flag">173dp</dimen>
+    <dimen name="width">152dp</dimen>
+    <dimen name="height">132dp</dimen>
+    <dimen name="right">60dp</dimen>
+    <dimen name="left">40dp</dimen>
+    <dimen name="top">32dp</dimen>
+</resources>

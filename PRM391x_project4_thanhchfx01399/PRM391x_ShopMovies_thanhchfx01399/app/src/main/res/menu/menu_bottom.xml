@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_shopping_cart_white_24dp"
+        android:title="@string/title_movie"
+        android:id="@+id/navigation_movie" />
+    <item
+        android:icon="@drawable/ic_person_white_24dp"
+        android:title="@string/title_profile"
+        android:id="@+id/navigation_profile"/>
+</menu>

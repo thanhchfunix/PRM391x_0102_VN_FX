@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnLocation"
+        android:layout_width="@dimen/width_flag"
+        android:layout_height="@dimen/height_flag"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/vietnam" />
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/btnLocation"
+        android:layout_centerHorizontal="true"
+        android:text="@string/hn" />
+
+    <Button
+        android:id="@+id/btnHotel"
+        android:layout_width="@dimen/width"
+        android:layout_height="@dimen/height"
+        android:layout_below="@+id/btnLocation"
+        android:layout_marginTop="@dimen/top"
+        android:background="@drawable/hotel"
+        android:onClick="addFragment"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+    <TextView
+        android:text="@string/hotel"
+        android:layout_alignBottom="@id/btnHotel"
+        android:textAlignment="center"
+        android:layout_marginLeft="@dimen/left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnAtm"
+        android:layout_width="@dimen/width"
+        android:layout_height="@dimen/height"
+        android:layout_below="@+id/btnLocation"
+        android:layout_marginTop="@dimen/top"
+        android:layout_alignParentRight="true"
+        android:onClick="addFragment"
+        android:background="@drawable/atm_machine" />
+
+    <TextView
+        android:text="@string/atm"
+        android:layout_alignBottom="@id/btnAtm"
+        android:layout_alignParentRight="true"
+        android:textAlignment="center"
+        android:layout_marginRight="@dimen/right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnHospital"
+        android:layout_width="@dimen/width"
+        android:layout_height="@dimen/height"
+        android:layout_below="@+id/btnHotel"
+        android:layout_marginTop="@dimen/top"
+        android:onClick="addFragment"
+        android:background="@drawable/hospital" />
+
+    <TextView
+        android:text="@string/hospital"
+        android:layout_alignBottom="@id/btnHospital"
+        android:textAlignment="center"
+        android:layout_marginLeft="@dimen/left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnBus"
+        android:layout_width="@dimen/width"
+        android:layout_height="@dimen/height"
+        android:layout_below="@+id/btnAtm"
+        android:layout_marginTop="@dimen/top"
+        android:layout_alignParentRight="true"
+        android:onClick="addFragment"
+        android:background="@drawable/metro" />
+
+    <TextView
+        android:text="@string/bus"
+        android:layout_alignBottom="@id/btnBus"
+        android:layout_alignParentRight="true"
+        android:textAlignment="center"
+        android:layout_marginRight="@dimen/right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

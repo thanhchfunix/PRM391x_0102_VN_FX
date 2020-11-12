@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="My_App">Welcome to my App</string>
+    <string name="Btn_Start">Start</string>
+    <string name="Back">Back</string>
+    <string name="Submit">Submit</string>
+    <string name="tvquiz1">1. Android là gì?</string>
+    <string name="radBtn1">Ngôn ngữ lập trình</string>
+    <string name="radBtn2">Hệ điều hành Window</string>
+    <string name="radBtn3">Phần mềm ứng dụng</string>
+    <string name="radBtn4">Hệ điều hành di động</string>
+    <string name="tvquiz2">2. Android dựa trên kernel nào?</string>
+    <string name="radBtn5">Mac kernel</string>
+    <string name="radBtn6">Window kernel</string>
+    <string name="radBtn7">Linux kernel</string>
+    <string name="radBtn8">Hybrid kernel</string>
+    <string name="tvquiz3">3. Java là ngôn ngữ duy nhất để viết ứng dụng android?</string>
+    <string name="radBtn9">Đúng</string>
+    <string name="radBtn10">Sai</string>
+    <string name="tvquiz4">4. Android version nào không dành cho điện thoại?</string>
+    <string name="tvquiz5">5. Ai là nhà đồng sáng lập android?</string>
+    <string name="checkBox1">Andy Rubin</string>
+    <string name="checkBox2">Rich Miner</string>
+    <string name="checkBox3">Sergey Brin</string>
+    <string name="tvquiz6">6. Điện thoại android đầu tiên được ra mắt?</string>
+    <string name="radBtn11">Motorola Droid</string>
+    <string name="radBtn12">LG Optimus One</string>
+    <string name="radBtn13">T-Mobile G1</string>
+    <string name="radBtn14">Samsung Galaxy S</string>
+</resources>

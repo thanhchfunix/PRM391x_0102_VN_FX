@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PRM391x_TourGuide_thanhchfx01399</string>
+    <string name="hotel">Khách sạn</string>
+    <string name="atm">ATM</string>
+    <string name="hospital">Bệnh viện</string>
+    <string name="bus">Xe Bus</string>
+    <string name="hn">Hà Nội, Việt Nam</string>
+</resources>

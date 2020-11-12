@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/iconBus"
+        android:layout_width="@dimen/dimen_icon"
+        android:layout_height="@dimen/dimen_icon"
+        android:src="@drawable/metro"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorBar"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tvNameBus"
+            android:textSize="@dimen/text_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvAddBus"
+            android:textSize="@dimen/text_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

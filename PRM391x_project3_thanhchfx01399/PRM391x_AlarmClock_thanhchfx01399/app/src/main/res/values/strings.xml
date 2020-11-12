@@ -1,0 +1,15 @@
+<resources>
+  <string name="app_name">AlarmClock</string>
+  <string name="start">Start</string>
+  <string name="stop">Stop</string>
+  <string name="information">Information</string>
+  <string name="add_alarm">ADD ALARM</string>
+  <string name="zero_hour">00:</string>
+  <string name="zero_minute">00</string>
+  <string name="on_off">On/Off</string>
+  <string name="list_alarm">List Alarm</string>
+  <string name="alarm_clock">Alarm Clock</string>
+  <string name="plus">+</string>
+  <string name="status">Status</string>
+  <string name="delete">DELETE</string>
+</resources>
